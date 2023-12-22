@@ -1,0 +1,100 @@
+
+.banner-area {
+    margin-top: 250px;
+}
+.banner-area p {
+    margin-top: 15px;
+}
+.banner-left {
+    display: inline-block;
+    vertical-align: top;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+.banner-right {
+    display: inline-block;
+    vertical-align: top;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    padding: 0 15px;
+}
+@media screen and (max-width: 1200px) {
+    .banner-area h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .banner-area {
+        margin-top: 300px;
+        padding-top: 80px;
+    }
+    .banner-left {
+        flex: auto;
+        max-width: 100%;
+        padding: 15px;
+    }
+    .banner-right {
+        flex: auto;
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .banner-area {
+        padding-top: 0;
+    }
+}
+
+/* Teaching, Advising, Research, Publications, Activities, Software */
+.home-about-area {
+    margin-top: 250px;
+    background-color: #f9f9ff;
+}
+.home-about-area li {
+    margin-left: 15px;
+}
+.home-about-area ul {
+    list-style-type: disc;
+}
+.home-about-area h1 {
+    margin-bottom: 15px;
+}
+.description {
+    margin: 15px 0 30px 0;
+}
+.sub-text {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 575px) {
+    .home-about-area {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* Publications */
+.links {
+    width: 100%;
+    text-align: end;
+    margin-bottom: 50px;
+}
+.links a {
+    margin-left: 25px;
+}
+.publications li {
+    margin-bottom: 25px;
+}
+
+/* Contact */
+.contact-page-area {
+    margin-top: 250px;
+}
+.contact-title {
+    width: 100%;
+    margin: 10px 0 30px 0;
+}
+.address-wrap {
+    padding-top: 50px;
+}
